@@ -1,0 +1,45 @@
+/* CSS file or styled-components styles */
+.purple-container {
+    background: purple;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+    color: white;
+  }
+  
+  .center-content {
+    margin-bottom: 20px;
+    border-radius: 45px;
+  }
+  
+  .center-content img {
+    max-width: 70%;
+    height: auto;
+  }
+  
+  .bottom-content {
+    margin: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  .single__paragraph{
+    text-align: justify;
+  }
+
+
+  .bottom-content img {
+    max-width: 30%;
+    height: auto;
+    margin-right: 20px;
+  }
+  
+  p {
+    font-size: 18px;
+    margin: 0;
+  }
+  

@@ -1,0 +1,56 @@
+/* Navigation Bar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0;
+  width: 100%;
+  height: 41px;
+  background-color: transparent;
+  margin: 10px;
+}
+
+.left-side {
+  display: flex;
+  align-items: center;
+  gap: 36px;
+}
+
+.right-side {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.nav-item {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 16px;
+  color: #494949;
+}
+
+.CaretDownFill {
+  width: 24px;
+  height: 24px;
+}
+
+.signup-button {
+  font-family: "Object Sans";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 17px;
+  color: #ffffff;
+  background: #572a84;
+  border: none;
+  border-radius: 50px;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin-right: 30px;
+}
+
+.signup-button:hover {
+  background: #4b236f; /* Change the color on hover */
+}
